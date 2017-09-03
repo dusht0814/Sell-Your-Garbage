@@ -1,0 +1,29 @@
+.demo-layout-transparent {
+  background: url("http://www.content.creditvidya.com/media/48921/planbo_08032015.jpg") top;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: black;
+}
+
+div.table
+{
+    top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100vh;
+ 	z-index: 800;
+ 	display:  flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	
+}
+table
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}

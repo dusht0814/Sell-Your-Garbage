@@ -1,0 +1,28 @@
+.demo-layout-transparent {
+  background: url("https://hi-static.z-dn.net/files/d0e/6cf07e0c0eed0e1697705ae65c3a4612.jpg") top;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: black;
+}
+ div.form
+{
+    top: 0;
+ 	left: 0;
+ 	width: 100%;
+ 	height: 100vh;
+ 	z-index: 800;
+ 	display:  flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	
+}
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
